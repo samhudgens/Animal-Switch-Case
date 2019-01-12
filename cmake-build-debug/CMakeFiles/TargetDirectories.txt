@@ -1,0 +1,3 @@
+/Users/sam/dev/cpp-learning/learn-cpp-book/ch5/animal-switch-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sam/dev/cpp-learning/learn-cpp-book/ch5/animal-switch-case/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sam/dev/cpp-learning/learn-cpp-book/ch5/animal-switch-case/cmake-build-debug/CMakeFiles/animal_switch_case.dir
