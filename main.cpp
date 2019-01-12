@@ -56,12 +56,45 @@ void printNumberOfLegs(Animal animal) {
 }
 
 int main() {
-  std::cout << "Choose a number to pick an animal:\n0: pig\n1: chicken\n2: goat\n3: cat\n4: dog\n5: ostrich" << std::endl;
-  int userInput;
-  std::cin >> userInput;
-  Animal animal = static_cast<Animal>(userInput);
+//  std::cout << "Choose a number to pick an animal:\n0: pig\n1: chicken\n2: goat\n3: cat\n4: dog\n5: ostrich" << std::endl;
+//  int userInput;
+//  std::cin >> userInput;
+//  Animal animal = static_cast<Animal>(userInput);
+//
+//  printNumberOfLegs(animal);
 
-  printNumberOfLegs(animal);
+//  int outer = 1;
+//  while(outer <= 5) {
+//    int inner = 5;
+//    while(inner >= outer) {
+//      std::cout << inner-- << " ";
+//    }
+//    std::cout << "\n";
+//    ++outer;
+//  }
+
+  int outer = 1;
+  while(outer <= 5) {
+    int inner = 5;
+    while(inner >= 1) {
+      if(inner <= outer) {
+        std::cout << inner << " ";
+      } else {
+        std::cout << "  ";
+      }
+      --inner;
+    }
+    std::cout << "\n";
+    ++outer;
+  }
+
+
+  
+  char mychar = 'a';
+  while(mychar <= 'z') {
+    std::cout << mychar << " " << static_cast<int>(mychar) << "\n";
+    ++mychar;
+  }
 
   return 0;
 }
